@@ -54,3 +54,11 @@ h1, h2 {
   font-family: Helvetica;
   color: #037bfc;
 }
+
+.smallerCaps {
+  background-color: red;
+}
+
+.SmallerCaps h2{
+  color: yellow;
+}

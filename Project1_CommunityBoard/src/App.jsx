@@ -1,16 +1,16 @@
 import './App.css';
-import Test1 from './components/Test1.jsx';
-import Test2 from './components/Test2.jsx';
-import Test3 from './components/Test3.jsx';
+import Caps from './components/Caps.jsx';
+import SmallerCaps from './components/SmallerCaps.jsx';
+import Card from './components/Card.jsx';
 
 function App() {
   return (
     <>
-      <h1>Hello World!</h1>
-      <h2>My name is Nathan Chin and this is my first React project.</h2>
-      <Test1 instance="1st instance"/>
-      <Test2 instance="1st instance"/>
-      <Test3 instance="1st instance"/>
+      <Caps instance="War Thunder"/>
+      <SmallerCaps className="smallerCaps" instance="Ammunition Types"/>
+      <div>
+        <h1 className="smallerCaps">Hello!</h1>
+      </div>
     </>
   )
 }
