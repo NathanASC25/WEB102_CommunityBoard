@@ -4,8 +4,8 @@ const SmallerCaps = (props) => {
     }
     return (
         <>
-            <div class={props.className}>
-                <h2>{announceUppercase(props.instance)}</h2>
+            <div className={props.className}>
+                <span>{announceUppercase(props.instance)}</span>
             </div>
         </>
     )

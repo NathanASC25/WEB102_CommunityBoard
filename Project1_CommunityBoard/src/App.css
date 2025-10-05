@@ -50,15 +50,58 @@ body {
   padding: 45vh;
 }
 
-h1, h2 {
+h1, h2{
   font-family: Helvetica;
   color: #037bfc;
 }
 
 .smallerCaps {
-  background-color: red;
+  margin-bottom: 3%;
 }
 
-.SmallerCaps h2{
+.smallerCaps span{
+  margin-left: 41%;
+  background-color: red;
   color: yellow;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.Caps {
+  margin-top: -20%;
+  margin-bottom: 3%;
+}
+
+.Caps span{
+  margin-left: 42%;
+  background-image: linear-gradient(yellow, orange);
+  color: green;
+  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 30px;
+}
+
+#Card-Container {
+  display: flex;
+  align-self: center;
+}
+
+.CardStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid red;
+  margin: 10px;
+  background-image: linear-gradient(orange, yellow);
+  height: 250px;
+  width: 250px;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.CardStyle h5 {
+  margin-top: -9%;
 }

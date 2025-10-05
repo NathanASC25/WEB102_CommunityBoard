@@ -4,9 +4,11 @@ const Caps = (props) => {
     }
     return (
         <>
-            <h1>{announceUppercase(props.instance)}</h1>
+            <div className={props.className}>
+                <span>{announceUppercase(props.instance)}</span>
+            </div>
         </>
-    )
-}
+    );
+};
 
 export default Caps;

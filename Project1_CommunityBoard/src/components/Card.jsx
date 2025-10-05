@@ -1,12 +1,16 @@
-const Test3 = (props) => {
+const Card = (props) => {
     let announceUppercase = (text) => {
         return text.toUpperCase();
     }
     return (
         <>
-            <h1>This is the {announceUppercase(props.instance)} of my Test2 component!</h1>
+            <div class={props.Styling}>
+                <img src={props.ImgSource}/>
+                <h1>{props.ShellType}</h1>
+                <h5>{props.FullName}</h5>
+            </div>
         </>
     )
 }
 
-export default Test3;
+export default Card;
